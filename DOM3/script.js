@@ -14,7 +14,24 @@ buttonOne.addEventListener('click',function(){
 ulList.addEventListener('click',function(event){
     // console.log(event.target)
     // console.log(event.target.tagName)
-    console.log(event.target.className)
+    //console.log(event.target.className)
+
+    if(event.target.tagName == "BUTTON"){
+        if(event.target.className == "remove"){
+            //
+
+        }
+
+        if(event.target.className == "up"){
+            //
+
+        }
+
+        if(event.target.className == "down"){
+            //
+
+        }
+    }
 })
 
 function createButtons(li){
